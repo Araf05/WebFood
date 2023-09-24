@@ -1,6 +1,9 @@
 window.addEventListener('DOMContentLoaded', () => {
     const reservaBtn = document.getElementById('reservaBtn');
-    reservaBtn.addEventListener('click', () => {
-        console.log('Gracias por reservar');
-    });
+
+    function handleClick() {
+        window.alert('Gracias por reservar!');
+    }
+
+    reservaBtn.addEventListener('click', handleClick );
 } );
